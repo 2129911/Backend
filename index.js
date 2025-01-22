@@ -46,6 +46,8 @@ app.post("/makepayment", async (req, res) => {
   res.status(200).json({ id: session?.id });
 });
 
-app.listen(8080, () => {
-  console.log("Server running on port 8080");
-});
+// app.listen(8080, () => {
+//   console.log("Server running on port 8080");
+// });
+
+module.exports=app
